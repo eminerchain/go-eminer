@@ -5,6 +5,23 @@
 
 As an innovative global hash rate service platform, Eminer hash rate service platform aims to reintegrate and redefine the mining industrial ecology based on hash rate with thoughts and finally build into a hash rate financial service platform integrating hash rate service,financial services and information service.
 
+### Building the source
+
+For prerequisites and detailed build instructions please read the [Installation Instructions](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) on the wiki.
+
+Building `em` requires both a Go (version 1.13 or later) and a C compiler. You can install
+them using your favourite package manager. Once the dependencies are installed, run
+
+```shell
+make em
+```
+
+or, to build the full suite of utilities:
+
+```shell
+make all
+```
+
 ### Deploy
 
 Under Linux or Mac, get the compressed file from release and extract it to get the executable file em.Create the storage directory /data/em, and copy the executable file to the directory. Then execute the startup command, in which '--port' is the customized chain synchronization port, '--rpc' would open RPC service, '--rpcaddr' is the self-defined RPC listening IP which should set to 127.0.0.1 if you do not want the remote RPC connection, --rpcport is the customized RCP listening port.
