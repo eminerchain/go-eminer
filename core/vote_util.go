@@ -40,71 +40,71 @@ var ErrInvalidSig = errors.New("invalid transaction v, r, s values")
 var big8 = big.NewInt(8)
 
 //Scan block transactions
-func CountBlockVote(block *types.Block, delegateList map[string]types.Candidate, db *state.StateDB) types.CandidateWrapper {
-	log.Info("Start CountBlockVote", "block", block.NumberU64())
-	txs := block.Transactions()
-	candidates := make([]types.VoteCandidate, 0)
-	candidateVotes := make(map[string]int64, 0)
-	for _, tx := range txs {
-		signer := types.NewDacchainSigner(tx.ChainId())
-		f, _ := types.Sender(signer, tx)
-		from := strings.ToLower(f.Hex())
-		switch tx.TxDataAction() {
-		case types.ActionAddVote, types.ActionSubVote:
-			votes, err := types.BytesToVote(tx.Vote())
-			if err != nil {
-				log.Info("Vote_Util unmarshal error:", "err", err)
-				continue
-			}
-			for _, vote := range votes {
-				address := strings.ToLower(vote.Candidate.Hex())
-				operation := vote.Operation
-				if operation == 0 {
-					if _, ok := candidateVotes[address]; ok {
-						candidateVotes[address] += 1
-					} else {
-						candidateVotes[address] = 1
-					}
-				} else if operation == 1 {
-					if _, ok := candidateVotes[address]; ok {
-						candidateVotes[address] -= 1
-					} else {
-						candidateVotes[address] = -1
-					}
-				}
-			}
-		case types.ActionRegister:
-			candidate := types.VoteCandidate{Address: from, Vote: 0, Nickname: string(tx.Nickname()), Action: register}
-			candidates = append(candidates, candidate)
-		default:
-			if _, ok := delegateList[from]; ok {
-				registerCost := new(big.Int)
-				registerCost.SetString(params.TxGasAgentCreation, 10)
-				log.Info("VoteUtil deal cancel", "address balance", db.GetBalance(common.HexToAddress(from)), "compare", registerCost)
-				if db.GetBalance(common.HexToAddress(from)).Cmp(registerCost) < 0 {
-					candidate := types.VoteCandidate{Address: from, Action: cancel}
-					candidates = append(candidates, candidate)
-				}
-			}
-		}
-	}
-	for address, vote := range candidateVotes {
-		var action int
-		if vote < 0 {
-			action = subVote
-			vote = -vote
-		} else {
-			action = addVote
-		}
-		candidate := types.VoteCandidate{Address: address, Vote: uint64(vote), Action: action}
-		//log.Info("VoteUtil", "candidate", candidate)
-		candidates = append(candidates, candidate)
-	}
-	candidateWrapper := types.CandidateWrapper{Candidates: candidates, BlockHeight: block.Number().Int64(), BlockTime: block.Time().Int64()}
-	return candidateWrapper
-}
+//func CountBlockVote(block *types.Block, delegateList map[string]types.Candidate, db *state.StateDB) types.CandidateWrapper {
+//	log.Info("Start CountBlockVote", "block", block.NumberU64())
+//	txs := block.Transactions()
+//	candidates := make([]types.VoteCandidate, 0)
+//	candidateVotes := make(map[string]int64, 0)
+//	for _, tx := range txs {
+//		signer := types.NewDacchainSigner(tx.ChainId())
+//		f, _ := types.Sender(signer, tx)
+//		from := strings.ToLower(f.Hex())
+//		switch tx.TxDataAction() {
+//		case types.ActionAddVote, types.ActionSubVote:
+//			votes, err := types.BytesToVote(tx.Vote())
+//			if err != nil {
+//				log.Info("Vote_Util unmarshal error:", "err", err)
+//				continue
+//			}
+//			for _, vote := range votes {
+//				address := strings.ToLower(vote.Candidate.Hex())
+//				operation := vote.Operation
+//				if operation == 0 {
+//					if _, ok := candidateVotes[address]; ok {
+//						candidateVotes[address] += 1
+//					} else {
+//						candidateVotes[address] = 1
+//					}
+//				} else if operation == 1 {
+//					if _, ok := candidateVotes[address]; ok {
+//						candidateVotes[address] -= 1
+//					} else {
+//						candidateVotes[address] = -1
+//					}
+//				}
+//			}
+//		case types.ActionRegister:
+//			candidate := types.VoteCandidate{Address: from, Vote: 0, Nickname: string(tx.Nickname()), Action: register}
+//			candidates = append(candidates, candidate)
+//		default:
+//			if _, ok := delegateList[from]; ok {
+//				registerCost := new(big.Int)
+//				registerCost.SetString(params.TxGasAgentCreation, 10)
+//				log.Info("VoteUtil deal cancel", "address balance", db.GetBalance(common.HexToAddress(from)), "compare", registerCost)
+//				if db.GetBalance(common.HexToAddress(from)).Cmp(registerCost) < 0 {
+//					candidate := types.VoteCandidate{Address: from, Action: cancel}
+//					candidates = append(candidates, candidate)
+//				}
+//			}
+//		}
+//	}
+//	for address, vote := range candidateVotes {
+//		var action int
+//		if vote < 0 {
+//			action = subVote
+//			vote = -vote
+//		} else {
+//			action = addVote
+//		}
+//		candidate := types.VoteCandidate{Address: address, Vote: uint64(vote), Action: action}
+//		//log.Info("VoteUtil", "candidate", candidate)
+//		candidates = append(candidates, candidate)
+//	}
+//	candidateWrapper := types.CandidateWrapper{Candidates: candidates, BlockHeight: block.Number().Int64(), BlockTime: block.Time().Int64()}
+//	return candidateWrapper
+//}
 
-func CountTrxVote(from string, tx *types.Transaction, statedb *state.StateDB, db *delegatestate.DelegateDB) ([]types.VoteCandidate, error) {
+func CountTrxVote(from string, tx *types.Transaction, statedb *state.StateDB, db *delegatestate.DelegateDB,blockNumber int64) ([]types.VoteCandidate, error) {
 	candidates := make([]types.VoteCandidate, 0)
 	candidateVotes := make(map[string]int64, 0)
 	switch tx.TxDataAction() {
@@ -148,8 +148,12 @@ func CountTrxVote(from string, tx *types.Transaction, statedb *state.StateDB, db
 	}
 	if db.Exist(common.HexToAddress(from)) {
 		registerCost := new(big.Int)
-		registerCost.SetString(params.TxGasAgentCreation, 10)
-		//log.Info("VoteUtil deal cancel", "address balance", statedb.GetBalance(common.HexToAddress(from)), "compare", registerCost)
+		if blockNumber <= params.AgentChangeBlockNumber {
+			registerCost.SetString(params.TxGasAgentCreationOld, 10)
+		}else {
+			registerCost.SetString(params.TxGasAgentCreation, 10)
+		}
+		log.Info("VoteUtil deal cancel", "address balance", statedb.GetBalance(common.HexToAddress(from)), "compare", registerCost)
 		if statedb.GetBalance(common.HexToAddress(from)).Cmp(registerCost) < 0 {
 			candidate := types.VoteCandidate{Address: from, Action: cancel}
 			candidates = append(candidates, candidate)
