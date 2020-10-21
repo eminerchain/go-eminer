@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 var (

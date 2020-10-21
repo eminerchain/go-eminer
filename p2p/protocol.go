@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

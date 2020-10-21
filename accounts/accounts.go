@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	Dacchain "github.com/eminer-pro/go-eminer"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/event"
+	Dacchain "github.com/eminerchain/go-eminer"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/event"
 )
 
 // Account represents an eminer-pro account located at a specific location defined

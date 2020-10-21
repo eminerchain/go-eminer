@@ -19,11 +19,11 @@ package fetcher
 
 import (
 	"errors"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/log"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 	"math/rand"
 	"time"

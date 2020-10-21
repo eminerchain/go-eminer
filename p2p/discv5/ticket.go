@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/mclock"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/mclock"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 const (

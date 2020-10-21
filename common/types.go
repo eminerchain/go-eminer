@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/crypto/sha3"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/crypto/sha3"
 	"strings"
 )
 

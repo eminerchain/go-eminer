@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/crypto/sha3"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/crypto/sha3"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/rlp"
 	"time"
 )
 

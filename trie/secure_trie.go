@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 var secureKeyPrefix = []byte("secure-key-")

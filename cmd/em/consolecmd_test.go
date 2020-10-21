@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 const (

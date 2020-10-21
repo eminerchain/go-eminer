@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 var (

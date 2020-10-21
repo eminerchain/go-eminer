@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 const (

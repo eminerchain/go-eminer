@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/mclock"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/mclock"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 
-	"github.com/eminer-pro/go-eminer/p2p/nat"
-	"github.com/eminer-pro/go-eminer/p2p/netutil"
+	"github.com/eminerchain/go-eminer/p2p/nat"
+	"github.com/eminerchain/go-eminer/p2p/netutil"
 )
 
 const (

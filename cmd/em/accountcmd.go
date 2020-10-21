@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/accounts/keystore"
-	"github.com/eminer-pro/go-eminer/cmd/utils"
-	"github.com/eminer-pro/go-eminer/console"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/accounts/keystore"
+	"github.com/eminerchain/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/console"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

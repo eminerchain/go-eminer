@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

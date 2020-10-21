@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/core/state"
 )
 
 func TestBloom9(t *testing.T) {

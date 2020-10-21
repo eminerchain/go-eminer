@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/eminer-pro/go-eminer/metrics"
+	"github.com/eminerchain/go-eminer/metrics"
 )
 
 var (

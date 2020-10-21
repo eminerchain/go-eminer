@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 	"github.com/jackpal/go-nat-pmp"
 )
 

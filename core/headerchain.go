@@ -24,12 +24,12 @@ import (
 	"math/big"
 	mrand "math/rand"
 	"time"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/params"
 	"github.com/hashicorp/golang-lru"
 )
 

@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/common/math"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/rlp"
-	"github.com/eminer-pro/go-eminer/tests"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

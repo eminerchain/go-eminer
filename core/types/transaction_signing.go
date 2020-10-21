@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 var (

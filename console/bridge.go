@@ -19,8 +19,8 @@ package console
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/rpc"
 	"github.com/robertkrimen/otto"
 	"io"
 	"strings"

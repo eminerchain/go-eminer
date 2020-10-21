@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
 )
 
 func TestNetwork_Lookup(t *testing.T) {

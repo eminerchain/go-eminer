@@ -17,7 +17,7 @@
 package tests
 
 import (
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 	"math/big"
 	"testing"
 )

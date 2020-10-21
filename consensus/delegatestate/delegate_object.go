@@ -19,10 +19,10 @@ package delegatestate
 import (
 	"bytes"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/rlp"
-	"github.com/eminer-pro/go-eminer/trie"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/trie"
 	"io"
 	"math/big"
 )

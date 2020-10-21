@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/eminer-pro/go-eminer/em/tracers/internal/tracers"
+	"github.com/eminerchain/go-eminer/em/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

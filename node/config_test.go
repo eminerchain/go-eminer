@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -18,11 +18,11 @@ package core
 
 import (
 	"math/big"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

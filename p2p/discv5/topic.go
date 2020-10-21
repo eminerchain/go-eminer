@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common/mclock"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common/mclock"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 const (

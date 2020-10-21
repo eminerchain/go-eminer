@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 // This table defines supported forks and their chain config.

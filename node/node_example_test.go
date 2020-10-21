@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

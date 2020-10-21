@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/p2p/simulations"
-	"github.com/eminer-pro/go-eminer/p2p/simulations/adapters"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/p2p/simulations"
+	"github.com/eminerchain/go-eminer/p2p/simulations/adapters"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

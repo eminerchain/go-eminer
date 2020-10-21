@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 //go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

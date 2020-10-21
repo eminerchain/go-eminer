@@ -21,7 +21,7 @@ package main
 import (
 	"bytes"
 	"flag"
-	"github.com/eminer-pro/go-eminer/accounts/keystore"
+	"github.com/eminerchain/go-eminer/accounts/keystore"
 	"go/build"
 	"go/format"
 	"html/template"
@@ -140,9 +140,9 @@ func genString(addressLists []string) []byte {
 	
 	import (
 		"fmt"
-		"github.com/eminer-pro/go-eminer/core/types"
+		"github.com/eminerchain/go-eminer/core/types"
  		"strconv"
-		"github.com/eminer-pro/go-eminer/rlp"
+		"github.com/eminerchain/go-eminer/rlp"
 	)
 
 	type genesisAgents []types.Candidate

@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 func TestSet(t *testing.T) {

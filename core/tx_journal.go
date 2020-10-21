@@ -20,10 +20,10 @@ import (
 	"errors"
 	"io"
 	"os"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

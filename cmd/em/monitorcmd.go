@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/cmd/utils"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

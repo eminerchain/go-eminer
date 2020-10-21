@@ -25,7 +25,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 	"gopkg.in/fatih/set.v0"
 )
 

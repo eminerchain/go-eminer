@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/cmd/internal/browser"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/cmd/internal/browser"
+	"github.com/eminerchain/go-eminer/params"
 
-	"github.com/eminer-pro/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/eminer-pro/go-eminer/issues/new"
+const issueUrl = "https://github.com/eminerchain/go-eminer/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-dacchain GH issue
 // tracker and setting default values as the issue body.

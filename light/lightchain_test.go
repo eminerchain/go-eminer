@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus/dpos"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus/dpos"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 // So we can deterministically seed different blockchains

@@ -18,10 +18,10 @@ package watch
 
 import (
 	"errors"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 // InnerTxDb wraps access to internal transactions data.

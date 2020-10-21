@@ -17,10 +17,10 @@
 package core
 
 import (
-	"github.com/eminer-pro/go-eminer/consensus/delegatestate"
-	"github.com/eminer-pro/go-eminer/core/state"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/consensus/delegatestate"
+	"github.com/eminerchain/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

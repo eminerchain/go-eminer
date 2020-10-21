@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/core/vm"
 )
 
 func TestVM(t *testing.T) {

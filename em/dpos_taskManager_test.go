@@ -18,7 +18,7 @@ package em
 
 import (
 	"fmt"
-	"github.com/eminer-pro/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/types"
 	"testing"
 )
 

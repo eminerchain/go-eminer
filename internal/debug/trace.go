@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

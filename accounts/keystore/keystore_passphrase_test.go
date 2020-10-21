@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 const (

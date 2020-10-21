@@ -22,11 +22,11 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

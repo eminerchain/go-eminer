@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/emdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

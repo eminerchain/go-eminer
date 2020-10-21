@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/crypto/ecies"
-	"github.com/eminer-pro/go-eminer/crypto/secp256k1"
-	"github.com/eminer-pro/go-eminer/crypto/sha3"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto/ecies"
+	"github.com/eminerchain/go-eminer/crypto/secp256k1"
+	"github.com/eminerchain/go-eminer/crypto/sha3"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/rlp"
 	"github.com/golang/snappy"
 )
 

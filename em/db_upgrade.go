@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

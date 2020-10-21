@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

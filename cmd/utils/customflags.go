@@ -21,7 +21,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/common/math"
 	"gopkg.in/urfave/cli.v1"
 	"math/big"
 	"os"

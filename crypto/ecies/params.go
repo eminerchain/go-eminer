@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	emcrypto "github.com/eminer-pro/go-eminer/crypto"
+	emcrypto "github.com/eminerchain/go-eminer/crypto"
 )
 
 var (

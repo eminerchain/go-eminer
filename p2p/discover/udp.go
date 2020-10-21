@@ -25,11 +25,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p/nat"
-	"github.com/eminer-pro/go-eminer/p2p/netutil"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p/nat"
+	"github.com/eminerchain/go-eminer/p2p/netutil"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 const Version = 4

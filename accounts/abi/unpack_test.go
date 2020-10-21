@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 	"github.com/stretchr/testify/require"
 )
 

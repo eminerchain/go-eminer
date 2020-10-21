@@ -16,7 +16,7 @@
 
 package emclient
 
-import _ "github.com/eminer-pro/go-eminer"
+import _ "github.com/eminerchain/go-eminer"
 
 // Verify that Client implements the dacchain interfaces.
 var (

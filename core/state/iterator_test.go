@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

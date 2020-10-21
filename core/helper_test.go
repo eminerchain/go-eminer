@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/event"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/event"
 )
 
 // Implement our EthTest Manager

@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/rpc"
 	"github.com/rcrowley/go-metrics"
 )
 

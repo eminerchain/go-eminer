@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/common/math"
-	"github.com/eminer-pro/go-eminer/crypto/secp256k1"
+	"github.com/eminerchain/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

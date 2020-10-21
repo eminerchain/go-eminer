@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 type account struct{}

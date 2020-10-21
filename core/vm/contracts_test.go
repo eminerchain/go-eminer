@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

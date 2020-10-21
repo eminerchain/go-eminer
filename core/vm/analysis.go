@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

@@ -36,11 +36,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/rpc"
 	"golang.org/x/net/websocket"
 )
 

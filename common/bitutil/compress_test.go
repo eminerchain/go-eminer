@@ -18,7 +18,7 @@ package bitutil
 
 import (
 	"bytes"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/common/hexutil"
 	"math/rand"
 	"testing"
 )

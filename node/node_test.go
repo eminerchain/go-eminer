@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 var (

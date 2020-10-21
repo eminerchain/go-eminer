@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/event"
+	"github.com/eminerchain/go-eminer/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/eminer-pro/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/common/math"
 )
 
 /*

@@ -35,9 +35,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/crypto/sha3"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto/sha3"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

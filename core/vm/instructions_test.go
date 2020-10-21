@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 type twoOperandTest struct {

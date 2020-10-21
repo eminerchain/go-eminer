@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

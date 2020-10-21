@@ -18,13 +18,13 @@ package core
 
 import (
 	"errors"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus/delegatestate"
-	"github.com/eminer-pro/go-eminer/core/state"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus/delegatestate"
+	"github.com/eminerchain/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/params"
 	"math/big"
 	"strings"
 )

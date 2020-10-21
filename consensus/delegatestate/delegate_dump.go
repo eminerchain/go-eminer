@@ -19,9 +19,9 @@ package delegatestate
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/rlp"
-	"github.com/eminer-pro/go-eminer/trie"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/trie"
 )
 
 type DumpDelegate struct {

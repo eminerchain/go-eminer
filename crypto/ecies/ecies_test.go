@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto"
 )
 
 var dumpEnc bool

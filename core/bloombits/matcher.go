@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common/bitutil"
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/common/bitutil"
+	"github.com/eminerchain/go-eminer/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/trie"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/trie"
 	"github.com/hashicorp/golang-lru"
 )
 

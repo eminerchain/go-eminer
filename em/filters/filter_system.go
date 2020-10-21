@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	dacchain "github.com/eminer-pro/go-eminer"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/rpc"
+	dacchain "github.com/eminerchain/go-eminer"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

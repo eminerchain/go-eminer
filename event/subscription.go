@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common/mclock"
+	"github.com/eminerchain/go-eminer/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

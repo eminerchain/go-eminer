@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

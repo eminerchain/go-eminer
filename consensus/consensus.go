@@ -17,12 +17,12 @@
 package consensus
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/consensus/delegatestate"
-	"github.com/eminer-pro/go-eminer/core/state"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/params"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/consensus/delegatestate"
+	"github.com/eminerchain/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/params"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

@@ -22,10 +22,10 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"github.com/eminer-pro/go-eminer/",
+	"github.com/eminerchain/go-eminer/",
 }
 
-// PrintOrigins sets or unsets log location (file:line) printing for terminal
+// PrintOrigins sets or unsets log locatrion (file:line) printing for terminal
 // format output.
 func PrintOrigins(print bool) {
 	if print {

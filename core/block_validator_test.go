@@ -17,11 +17,11 @@
 package core
 
 import (
-	"github.com/eminer-pro/go-eminer/consensus/dpos"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/consensus/dpos"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/params"
 	"runtime"
 	"testing"
 	"time"

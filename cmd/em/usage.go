@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/eminer-pro/go-eminer/cmd/utils"
-	"github.com/eminer-pro/go-eminer/internal/debug"
+	"github.com/eminerchain/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 	"strings"
 )

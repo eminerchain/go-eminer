@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/log"
 	"gopkg.in/fatih/set.v0"
 )
 

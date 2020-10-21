@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/core/vm"
 )
 
 func TestState(t *testing.T) {

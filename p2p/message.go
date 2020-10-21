@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 // Msg defines the structure of a p2p message.

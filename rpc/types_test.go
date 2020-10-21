@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

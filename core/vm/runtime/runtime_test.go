@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/accounts/abi"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/state"
-	"github.com/eminer-pro/go-eminer/core/vm"
-	"github.com/eminer-pro/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/accounts/abi"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/core/vm"
+	"github.com/eminerchain/go-eminer/emdb"
 )
 
 func TestDefaults(t *testing.T) {

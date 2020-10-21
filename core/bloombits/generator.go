@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/eminer-pro/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

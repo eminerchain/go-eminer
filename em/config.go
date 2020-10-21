@@ -17,12 +17,12 @@
 package em
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/em/downloader"
-	"github.com/eminer-pro/go-eminer/em/gasprice"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/em/downloader"
+	"github.com/eminerchain/go-eminer/em/gasprice"
+	"github.com/eminerchain/go-eminer/params"
 	"math/big"
 	"os"
 	"os/user"

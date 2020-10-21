@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 )
 
 // CreateIPCListener creates an listener, on Unix platforms this is a unix socket, on

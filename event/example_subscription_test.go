@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/event"
+	"github.com/eminerchain/go-eminer/event"
 )
 
 func ExampleNewSubscription() {

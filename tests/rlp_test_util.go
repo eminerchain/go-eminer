@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

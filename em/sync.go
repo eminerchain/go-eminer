@@ -17,11 +17,11 @@
 package em
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/em/downloader"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/em/downloader"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 	"math/big"
 	"math/rand"
 	"sync/atomic"

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 	"github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/exp"
 )

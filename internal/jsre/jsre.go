@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/internal/jsre/deps"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

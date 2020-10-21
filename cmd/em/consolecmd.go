@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/cmd/utils"
-	"github.com/eminer-pro/go-eminer/console"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/console"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -42,7 +42,7 @@ var (
 		Description: `
 The EM console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/eminer-pro/go-eminer/wiki/Javascipt-Console.`,
+See https://github.com/eminerchain/go-eminer/wiki/Javascipt-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -55,7 +55,7 @@ See https://github.com/eminer-pro/go-eminer/wiki/Javascipt-Console.`,
 		Description: `
 The EM console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/eminer-pro/go-eminer/wiki/Javascipt-Console.
+See https://github.com/eminerchain/go-eminer/wiki/Javascipt-Console.
 This command allows to open a console on a running em node.`,
 	}
 
@@ -68,7 +68,7 @@ This command allows to open a console on a running em node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/eminer-pro/go-eminer/wiki/Javascipt-Console`,
+JavaScript API. See https://github.com/eminerchain/go-eminer/wiki/Javascipt-Console`,
 	}
 )
 

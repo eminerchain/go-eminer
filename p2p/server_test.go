@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/crypto/sha3"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto/sha3"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 )
 
 func init() {

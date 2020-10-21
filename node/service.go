@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

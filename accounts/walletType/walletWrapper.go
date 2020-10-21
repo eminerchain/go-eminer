@@ -18,7 +18,7 @@ package walletType
 
 import (
 	"crypto/ecdsa"
-	"github.com/eminer-pro/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/accounts"
 )
 
 type WalletWrapper struct {

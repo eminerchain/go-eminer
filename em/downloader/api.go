@@ -20,8 +20,8 @@ import (
 	"context"
 	"sync"
 
-	emchain "github.com/eminer-pro/go-eminer"
-	"github.com/eminer-pro/go-eminer/rpc"
+	emchain "github.com/eminerchain/go-eminer"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

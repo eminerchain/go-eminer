@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/common/math"
 )
 
 var _ = (*ttTransactionMarshaling)(nil)

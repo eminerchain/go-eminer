@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

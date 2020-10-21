@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 type (

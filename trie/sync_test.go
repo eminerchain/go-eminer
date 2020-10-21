@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/emdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

@@ -19,8 +19,8 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/rlp"
 	"math/big"
 	"reflect"
 	"testing"

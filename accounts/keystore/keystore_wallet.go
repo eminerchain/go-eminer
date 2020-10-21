@@ -17,9 +17,9 @@
 package keystore
 
 import (
-	Dacchain "github.com/eminer-pro/go-eminer"
-	"github.com/eminer-pro/go-eminer/accounts"
-	"github.com/eminer-pro/go-eminer/core/types"
+	Dacchain "github.com/eminerchain/go-eminer"
+	"github.com/eminerchain/go-eminer/accounts"
+	"github.com/eminerchain/go-eminer/core/types"
 	"math/big"
 )
 

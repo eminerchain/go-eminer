@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 /*

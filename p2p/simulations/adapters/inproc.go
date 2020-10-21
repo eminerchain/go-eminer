@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/event"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/event"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

@@ -17,8 +17,8 @@
 package em
 
 import (
-	"github.com/eminer-pro/go-eminer/metrics"
-	"github.com/eminer-pro/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/metrics"
+	"github.com/eminerchain/go-eminer/p2p"
 )
 
 var (

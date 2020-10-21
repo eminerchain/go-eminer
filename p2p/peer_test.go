@@ -19,7 +19,7 @@ package p2p
 import (
 	"errors"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 	"math/rand"
 	"net"
 	"reflect"

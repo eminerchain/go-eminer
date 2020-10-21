@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/crypto/secp256k1"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

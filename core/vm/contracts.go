@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/math"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/crypto/bn256"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/crypto/bn256"
+	"github.com/eminerchain/go-eminer/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

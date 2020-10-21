@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/em/downloader"
-	"github.com/eminer-pro/go-eminer/p2p"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/em/downloader"
+	"github.com/eminerchain/go-eminer/p2p"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

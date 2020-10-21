@@ -18,9 +18,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/eminer-pro/go-eminer/cmd/utils"
-	"github.com/eminer-pro/go-eminer/em"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/cmd/utils"
+	"github.com/eminerchain/go-eminer/em"
+	"github.com/eminerchain/go-eminer/params"
 	"gopkg.in/urfave/cli.v1"
 	"os"
 	"runtime"

@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

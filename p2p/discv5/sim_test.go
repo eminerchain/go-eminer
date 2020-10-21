@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

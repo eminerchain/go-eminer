@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/state"
-	"github.com/eminer-pro/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/state"
+	"github.com/eminerchain/go-eminer/emdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/eminer-pro/go-eminer/common"
+import "github.com/eminerchain/go-eminer/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

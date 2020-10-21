@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/eminer-pro/go-eminer/internal/cmdtest"
+	"github.com/eminerchain/go-eminer/internal/cmdtest"
 	"strings"
 )
 

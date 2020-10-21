@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 // Entry is implemented by known node record entry walletType.

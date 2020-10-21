@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
 )
 
 // Node represents a host on the network.

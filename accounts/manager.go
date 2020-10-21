@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/event"
+	"github.com/eminerchain/go-eminer/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

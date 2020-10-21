@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

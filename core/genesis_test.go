@@ -23,20 +23,20 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/hexutil"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/emdb"
-	"github.com/eminer-pro/go-eminer/params"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/params"
+	"github.com/eminerchain/go-eminer/rlp"
 	"io/ioutil"
 	"os"
 	"strconv"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {
-	file, _ := os.Open("/Users/admin/src/github.com/eminer-pro/go-eminer/genesis.json")
-	data, _ := ioutil.ReadFile("/Users/admin/github-workspace/src/github.com/eminer-pro/go-eminer/genesis.json")
+	file, _ := os.Open("/Users/admin/src/github.com/eminerchain/go-eminer/genesis.json")
+	data, _ := ioutil.ReadFile("/Users/admin/github-workspace/src/github.com/eminerchain/go-eminer/genesis.json")
 	geneJson := string(data)
 	fmt.Println(geneJson)
 	var aa Genesis

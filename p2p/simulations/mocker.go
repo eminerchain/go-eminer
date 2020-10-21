@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 )
 
 //a map of mocker names to its function

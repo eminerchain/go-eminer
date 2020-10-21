@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/internal/jsre"
-	"github.com/eminer-pro/go-eminer/internal/web3ext"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/internal/jsre"
+	"github.com/eminerchain/go-eminer/internal/web3ext"
+	"github.com/eminerchain/go-eminer/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

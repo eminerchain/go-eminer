@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/common/hexutil"
+	"github.com/eminerchain/go-eminer/common/hexutil"
 )
 
 type MyType [5]byte

@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/common/math"
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common/math"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

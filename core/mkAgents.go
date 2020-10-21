@@ -28,8 +28,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/rlp"
 	"strconv"
 )
 

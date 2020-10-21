@@ -24,8 +24,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/log/term"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/log/term"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

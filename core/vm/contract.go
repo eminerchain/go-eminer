@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 // ContractRef is a reference to the contract's backing object

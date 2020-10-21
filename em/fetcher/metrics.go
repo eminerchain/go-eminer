@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/eminer-pro/go-eminer/metrics"
+	"github.com/eminerchain/go-eminer/metrics"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/rpc"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

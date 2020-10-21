@@ -19,7 +19,7 @@ package emdb_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/eminer-pro/go-eminer/emdb"
+	"github.com/eminerchain/go-eminer/emdb"
 	"io/ioutil"
 	"os"
 	"strconv"

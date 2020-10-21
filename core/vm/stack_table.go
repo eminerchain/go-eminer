@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/params"
+	"github.com/eminerchain/go-eminer/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

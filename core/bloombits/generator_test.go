@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/eminer-pro/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

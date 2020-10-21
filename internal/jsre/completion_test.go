@@ -18,7 +18,7 @@ package jsre
 
 import (
 	"fmt"
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 	"os"
 	"reflect"
 	"regexp"

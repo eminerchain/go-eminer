@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

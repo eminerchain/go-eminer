@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/core/types"
-	"github.com/eminer-pro/go-eminer/internal/debug"
-	"github.com/eminer-pro/go-eminer/log"
-	"github.com/eminer-pro/go-eminer/node"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/internal/debug"
+	"github.com/eminerchain/go-eminer/log"
+	"github.com/eminerchain/go-eminer/node"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 const (

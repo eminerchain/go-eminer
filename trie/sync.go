@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/eminer-pro/go-eminer/common"
+	"github.com/eminerchain/go-eminer/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

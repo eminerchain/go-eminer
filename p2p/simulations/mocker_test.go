@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminer-pro/go-eminer/p2p/discover"
+	"github.com/eminerchain/go-eminer/p2p/discover"
 )
 
 func TestMocker(t *testing.T) {

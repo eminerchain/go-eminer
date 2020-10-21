@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/crypto"
-	"github.com/eminer-pro/go-eminer/rlp"
-	"github.com/eminer-pro/go-eminer/trie"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/crypto"
+	"github.com/eminerchain/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/trie"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

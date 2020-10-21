@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/eminer-pro/go-eminer/common"
-	"github.com/eminer-pro/go-eminer/core/types"
+	"github.com/eminerchain/go-eminer/common"
+	"github.com/eminerchain/go-eminer/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

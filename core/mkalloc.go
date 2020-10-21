@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/eminer-pro/go-eminer/core"
-	"github.com/eminer-pro/go-eminer/rlp"
+	"github.com/eminerchain/go-eminer/core"
+	"github.com/eminerchain/go-eminer/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }
