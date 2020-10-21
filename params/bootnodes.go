@@ -26,7 +26,7 @@ var MainnetBootnodes = []string{
 
 // TestnetBootnodes
 var TestnetBootnodes = []string{
-	"enode://7baae2fac6c271737672ad6f15200b60a5b971cd802f85854999536c47bfa644e04eb9dcc8a57333dbd755d77f4797a4dadc0e8c2d0da4f38dd9f422ee593f7f@172.16.20.76:30303",
+	// "enode://7baae2fac6c271737672ad6f15200b60a5b971cd802f85854999536c47bfa644e04eb9dcc8a57333dbd755d77f4797a4dadc0e8c2d0da4f38dd9f422ee593f7f@172.16.20.76:30303",
 }
 
 // block reward
