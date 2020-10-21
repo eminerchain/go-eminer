@@ -32,8 +32,9 @@ const (
 	CallNewAccountGas      uint64 = 1600      // Paid for CALL when the destination address didn't exist prior.
 	TxGas                  uint64 = 25000     // Per transaction not creating a contract. NOTE: Not payable on data of calls between transactions.
 	TxGasContractCreation  uint64 = 20000     // Per transaction that creates a contract. NOTE: Not payable on data of calls between transactions.
-	TxGasAgentCreation            = "5000000000000000000000000" // change to 5000000 em
-	TxGasAgentCreationNew         = "50000000000000000000000" // change to 50000 em
+	TxGasAgentCreation            = "50000000000000000000000" // change to 50000 em
+	TxGasAgentCreationOld         = "5000000000000000000000000" // change to 5000000 em
+	AgentChangeBlockNumber        = 812787
 	TxDataZeroGas          uint64 = 1      // Per byte of data attached to a transaction that equals zero. NOTE: Not payable on data of calls between transactions.
 	QuadCoeffDiv           uint64 = 1024   // Divisor for the quadratic particle of the memory cost equation.
 	SstoreSetGas           uint64 = 1250   // Once per SLOAD operation.

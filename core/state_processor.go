@@ -145,7 +145,7 @@ func ApplyTransaction(config *params.ChainConfig, bc *BlockChain, author *common
 func voteChangeToDelegateState(from common.Address, tx *types.Transaction, statedb *state.StateDB, db *delegatestate.DelegateDB, blockTime uint64, blockNumber int64) error {
 	// beginDelegateRoot := db.IntermediateRoot(false)
 	address := strings.ToLower(from.Hex())
-	candidates, err := CountTrxVote(address, tx, statedb, db)
+	candidates, err := CountTrxVote(address, tx, statedb, db,blockNumber)
 
 	//if len(candidates) > 0 {
 	//	log.Info("voteChangeToDelegateState|", "blockNumber", blockNumber, "beginDelegateRoot", len(candidates), "err", err)
