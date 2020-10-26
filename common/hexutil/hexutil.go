@@ -60,11 +60,11 @@ func Decode(input string) ([]byte, error) {
 	if len(input) == 0 {
 		return nil, ErrEmptyString
 	}
-	if !has0xPrefix(input) && !hasDacPrefix(input) {
+	if !has0xPrefix(input) && !hasEMPrefix(input) {
 		return nil, ErrMissingPrefix
 	}
-	if hasDacPrefix(input) {
-		input = input[3:]
+	if hasEMPrefix(input) {
+		input = input[2:]
 	} else {
 		input = input[2:]
 	}
@@ -193,19 +193,19 @@ func has0xPrefix(input string) bool {
 	return len(input) >= 2 && input[0] == '0' && (input[1] == 'x' || input[1] == 'X')
 }
 
-func hasDacPrefix(input string) bool {
-	return len(input) >= 3 && (input[0] == 'A' || input[0] == 'a') && (input[1] == 'O' || input[1] == 'o') && (input[2] == 'A' || input[2] == 'a')
+func hasEMPrefix(input string) bool {
+	return len(input) >= 2 && (input[0] == 'E' || input[0] == 'e') && (input[1] == 'm' || input[1] == 'M')
 }
 
 func checkNumber(input string) (raw string, err error) {
 	if len(input) == 0 {
 		return "", ErrEmptyString
 	}
-	if !has0xPrefix(input) && !hasDacPrefix(input) {
+	if !has0xPrefix(input) && !hasEMPrefix(input) {
 		return "", ErrMissingPrefix
 	}
-	if hasDacPrefix(input) {
-		input = input[3:]
+	if hasEMPrefix(input) {
+		input = input[2:]
 	} else {
 		input = input[2:]
 	}
