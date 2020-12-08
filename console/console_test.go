@@ -230,6 +230,16 @@ func TestPreload(t *testing.T) {
 	}
 }
 
+func TestPreload2(t *testing.T) {
+	tester := newTester(t, nil)
+	defer tester.Close(t)
+
+	tester.console.Evaluate("preloaded")
+	if output := tester.output.String(); !strings.Contains(output, "some-preloaded-string2") {
+		t.Fatalf("preloaded variable missing: have %s, want %s", output, "some-preloaded-string2")
+	}
+}
+
 // Tests that JavaScript scripts can be executes from the configured asset path.
 func TestExecute(t *testing.T) {
 	tester := newTester(t, nil)
