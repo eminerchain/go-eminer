@@ -817,3 +817,13 @@ func unhex(str string) []byte {
 	}
 	return b
 }
+
+
+
+func unhex2(str string) []byte {
+	b, err := hex.DecodeString(strings.Replace(str, " ", "", -1))
+	if err != nil {
+		panic(fmt.Sprintf("invalid hex string: %q", str))
+	}
+	return b
+}
