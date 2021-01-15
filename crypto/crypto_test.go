@@ -349,3 +349,13 @@ func TestCheckPrivatekey(t *testing.T) {
 	address := PubkeyToAddress(*publicKey).Hex()
 	fmt.Printf("address:%s n", address)
 }
+
+func TestCheckPrivatekey2(t *testing.T) {
+	privateKey, err := HexToECDSA("0xa747ae7e44e5392e0f31bba73a34222adcdbcdd4dcd9526f9f2f25ad48db4c7")
+	if err != nil {
+		t.Fatal(err)
+	}
+	publicKey := privateKey.Public().(*ecdsa.PublicKey)
+	address := PubkeyToAddress(*publicKey).Hex()
+	fmt.Printf("address:%s n", address)
+}
