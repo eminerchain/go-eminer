@@ -60,3 +60,9 @@ func TestCalShuffleTimeByHeaderTime(t *testing.T) {
 	fmt.Println(shuffleTime)
 
 }
+
+func TestCalShuffleTimeByHeaderTime2(t *testing.T) {
+	shuffleTime := CalShuffleTimeByHeaderTime(3030, 2040)
+	fmt.Println(shuffleTime)
+
+}
