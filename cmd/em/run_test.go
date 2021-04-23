@@ -113,3 +113,12 @@ func TestByCategory_Less(t *testing.T) {
 	x := s[:(len(s)-32)] + strings.ToLower(s[(len(s)-32):])
 	fmt.Println(x)
 }
+
+
+func TestByCategory_Less2(t *testing.T) {
+	s := "EM5ccb115ac633e2ccfebe65fc4e18e75ce78642b4QWERTYUIOPASDFGHJKLZXCVBNMQWERTY"
+	x := s[:(len(s)-32)] + strings.ToLower(s[(len(s)-32):])
+	fmt.Println(x)
+}
+
+
