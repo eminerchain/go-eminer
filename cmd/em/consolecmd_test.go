@@ -91,6 +91,7 @@ func TestIPCAttachWelcome(t *testing.T) {
 	testAttachWelcome(t, geth, "ipc:"+ipc, ipcAPIs)
 
 	geth.Interrupt()
+	
 	geth.ExpectExit()
 }
 
