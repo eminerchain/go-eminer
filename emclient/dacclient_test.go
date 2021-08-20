@@ -28,6 +28,7 @@ var (
 	_ = dacchain.GasEstimator(&Client{})
 	_ = dacchain.GasPricer(&Client{})
 	_ = dacchain.LogFilterer(&Client{})
+	
 	_ = dacchain.PendingStateReader(&Client{})
 	// _ = dacchain.PendingStateEventer(&Client{})
 	_ = dacchain.PendingContractCaller(&Client{})
