@@ -672,5 +672,6 @@ func (s *Service) reportStats(conn *websocket.Conn) error {
 	report := map[string][]interface{}{
 		"emit": {"stats", stats},
 	}
+	
 	return websocket.JSON.Send(conn, report)
 }
