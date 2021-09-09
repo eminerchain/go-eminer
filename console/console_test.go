@@ -155,6 +155,7 @@ func (env *tester) Close(t *testing.T) {
 // console modules.
 func TestWelcome(t *testing.T) {
 	tester := newTester(t, nil)
+	
 	defer tester.Close(t)
 
 	tester.console.Welcome()
