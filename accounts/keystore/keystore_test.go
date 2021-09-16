@@ -89,6 +89,7 @@ func TestSign(t *testing.T) {
 }
 
 func TestSignWithPassphrase(t *testing.T) {
+
 	dir, ks := tmpKeyStore(t, true)
 	defer os.RemoveAll(dir)
 
