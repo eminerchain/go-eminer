@@ -105,6 +105,7 @@ func (i info) License() string {
 	return "Lesser General Public License"
 }
 
+
 func (i info) ShortLicense() string {
 	if i.gpl() {
 		return "GPL"
