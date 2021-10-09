@@ -26,6 +26,7 @@ import (
 
 type BytesSuite struct{}
 
+
 var _ = checker.Suite(&BytesSuite{})
 
 func (s *BytesSuite) TestCopyBytes(c *checker.C) {
