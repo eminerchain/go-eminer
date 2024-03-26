@@ -46,3 +46,22 @@ func TestCheckCompatible(t *testing.T) {
 		}
 	}
 }
+
+func TestConfigRules(t *testing.T) {
+	c := &ChainConfig{
+		LondonBlock:  new(big.Int),
+		ShanghaiTime: newUint64(500),
+	}
+	var stamp uint64
+	if r := c.Rules(big.NewInt(0), true, stamp); r.IsShanghai {
+		t.Errorf("expected %v to not be", stamp)
+	}
+	stamp = 500
+	if r := c.Rules(big.NewInt(0), true, stamp); !r.IsShanghai {
+		t.Errorf("expected %v to be", stamp)
+	}
+	stamp = math.MaxInt64
+	if r := c.Rules(big.NewInt(0), true, stamp); !r.IsShanghai {
+		t.Errorf("expected %v to be", stamp)
+	}
+}
